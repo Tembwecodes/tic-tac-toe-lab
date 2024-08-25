@@ -1,0 +1,54 @@
+body {
+  background-color: gainsboro;
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+  background: orange;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid black;
+  font-size: 64px;
+  text-align: center;
+}
+
+.x-style {
+  color: blue;
+  font-weight: bold;
+}
+
+.o-style {
+  color: black;
+  font-weight: bold;
+}
+
+.empty-style {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: blue;
+}
+
+button {
+  color: black;
+  border: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  background: orange;
+  margin: 10px 10px 10px 110px;
+}
+  
